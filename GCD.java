@@ -9,6 +9,7 @@ public class GCD {
 		System.out.println();
 		int a = scn.nextInt();
 		int b = scn.nextInt();
+		//resolving a and b into max and min to get which is the max and which is the min in a and b so that there is no confusion later
 		int max = Math.max(a, b);
 		int min = Math.min(a, b);
 		int gcd = 1;
